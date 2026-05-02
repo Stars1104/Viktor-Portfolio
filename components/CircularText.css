@@ -1,0 +1,39 @@
+.circular-text {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  font-size: clamp(8px, 3vw, 24px);
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  white-space: nowrap;
+}
+
+/* Responsive font sizes for different container sizes */
+@media (max-width: 640px) {
+  .circular-text span {
+    font-size: clamp(6px, 2.5vw, 12px);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .circular-text span {
+    font-size: clamp(10px, 2.5vw, 18px);
+  }
+}
