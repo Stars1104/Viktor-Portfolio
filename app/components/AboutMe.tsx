@@ -69,7 +69,7 @@ export default function AboutMe() {
                 </h2>
             </div>
             <p ref={textRef} className="text-white text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl leading-relaxed max-w-7xl mx-auto text-center px-2 sm:px-4">
-                I'm Aron Layson, with over 6+ years of experience in development
+                I'm Viktor Karpenko, with over 6+ years of experience in development
                 with strong focus on producing high quality & impactful digital experiences. I
                 have worked with some of the most innovative industry leaders to help build
                 their top-notch products
@@ -77,4 +77,3 @@ export default function AboutMe() {
         </section>
     );
 }
-

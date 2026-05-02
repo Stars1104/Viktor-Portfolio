@@ -73,7 +73,7 @@ export default function Contact() {
         {/* Main Heading */}
         <h2 ref={headingRef} className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium mb-6 sm:mb-8 leading-tight px-2">
           Let's create your<br />
-          next big idea.
+          big idea.
         </h2>
       </div>
     </section>

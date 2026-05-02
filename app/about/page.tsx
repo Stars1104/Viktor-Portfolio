@@ -19,9 +19,9 @@ const SparkleIcon = () => (
 export default function AboutPage() {
   const experiences = [
     {
-      year: 'November 2023 - March 2025',
-      title: 'Senior Frontend Engineer',
-      company: 'BairesDev',
+      year: 'November 2024 - December 2025',
+      title: 'Senior Full Stack | AI Developer',
+      company: 'Granit.AI',
       description: 'Working with brands globally to build pixel-perfect, engaging, and accessible digital experiences that drive results and achieve business goals.',
       achievements: [
         'Delivered 50+ successful web projects',
@@ -30,10 +30,10 @@ export default function AboutPage() {
       ]
     },
     {
-      year: 'June 2021 - October 2023',
-      title: 'Senior Frontend Developer',
-      company: 'Amertron Inc',
-      description: 'Led frontend development initiatives, mentored junior developers, and contributed to architectural decisions.',
+      year: 'June 2021 - October 2024',
+      title: 'Full Stack Developer',
+      company: 'DDI Development',
+      description: 'Led development initiatives, mentored junior developers, and contributed to architectural decisions.',
       achievements: [
         'Improved application performance by 40%',
         'Mentored team of 5+ developers',
@@ -41,12 +41,12 @@ export default function AboutPage() {
       ]
     },
     {
-      year: 'July 2018 - March 2021',
-      title: 'Web Developer',
-      company: 'TwistResources',
+      year: 'February 2020 - May 2021',
+      title: 'Full Stack Developer',
+      company: 'SourceX',
       description: 'Developed responsive web applications and collaborated with designers to bring creative visions to life.',
       achievements: [
-        'Built 20+ client websites',
+        'Built 13+ client websites',
         'Mastered modern JavaScript frameworks',
         'Enhanced UI/UX design skills'
       ]
@@ -55,9 +55,11 @@ export default function AboutPage() {
 
   const skills = [
     { category: 'Frontend', items: ['React', 'Next.js', 'TypeScript', 'JavaScript', 'HTML/CSS', 'Tailwind CSS'] },
-    { category: 'Mobile', items: ['React Native', 'Expo', 'TypeScript', 'JavaScript', 'HTML/CSS', 'Tailwind CSS'] },
-    { category: 'Database', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase'] },
-    { category: 'Tools & Others', items: ['Git', 'Docker', 'AWS', 'Figma', 'Framer Motion', 'GSAP', 'Cypress'] }
+    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'FastAPI', 'REST APIs', 'GraphQL'] },
+    { category: 'AI & ML', items: ['OpenAI API', 'Claude API', 'LangChain', 'RAG', 'Prompt Engineering', 'Vector DBs'] },
+    { category: 'Mobile', items: ['React Native', 'Expo'] },
+    { category: 'Database', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase', 'Pinecone', 'Supabase'] },
+    { category: 'Tools & DevOps', items: ['Git', 'Docker', 'AWS', 'Vercel', 'Figma', 'Framer Motion'] }
   ];
 
   const heroRef = useRef<HTMLElement>(null);
@@ -311,7 +313,7 @@ export default function AboutPage() {
               <img src="/assets/me.png" alt="About Me" className="w-full h-full object-cover rounded-b-full" />
               <div className='hidden md:flex w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] md:w-[180px] md:h-[180px] lg:w-[200px] lg:h-[200px] bottom-0 right-0 absolute rounded-full bg-[#0b0b0d] border border-[#1d1d1f] items-center justify-center overflow-hidden'>
                 <CircularText
-                  text="Aron*Layson*Web*Dev"
+                  text="Viktor*Karpenko*Dev*"
                   onHover="speedUp"
                   spinDuration={20}
                   className="text-white text-sm sm:text-base md:text-lg lg:text-2xl font-medium"
@@ -325,10 +327,10 @@ export default function AboutPage() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium leading-[1.1] tracking-tight">
               <span className="text-white">A Proficient & Skilled</span>
               <br />
-              <span className="text-[#b5ff6d]">Front-End & Mobile Developer</span>
+              <span className="text-[#b5ff6d]">Full-Stack & AI Developer</span>
             </h1>
             <p className="text-[#9797a9] text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              I collaborate with brands globally to design impactful, mission-focused websites & mobile applications that drive results and achieve business goals.
+              I collaborate with brands globally to design impactful, mission-focused websites & AI applications that drive results and achieve business goals.
             </p>
           </div>
         </div>
@@ -345,10 +347,10 @@ export default function AboutPage() {
           </div>
           <div className="space-y-4 sm:space-y-6 text-[#9797a9] text-sm sm:text-base md:text-lg leading-relaxed">
             <p>
-            I'm Aron Layson, with over 6+ years of experience in Front-End & Mobile Development with strong focus on producing high quality & impactful digital experiences. I have worked with some of the most innovative industry leaders to help build their top-notch products.
+            I'm Viktor Karpenko, with over 6+ years of experience in Full-Stack & AI Development with strong focus on producing high quality & impactful digital experiences. I have worked with some of the most innovative industry leaders to help build their top-notch products.
             </p>
             <p>
-            My journey began with a passion for creating beautiful, functional interfaces that not only look great but also solve real problems. Over the years, I've honed my skills in both Frontend & Backend Development, allowing me to bridge the gap between creative vision and technical implementation.
+            My journey began with a passion for creating beautiful, functional interfaces that not only look great but also solve real problems. Over the years, I've honed my skills in both Frontend/Backend & AI Development, allowing me to bridge the gap between creative vision and technical implementation.
             </p>
             <p>
             I believe in crafting purpose-driven experiences that inspire and engage users. Every project is an opportunity to push boundaries, learn something new, and deliver exceptional results that exceed expectations.

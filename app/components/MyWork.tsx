@@ -15,19 +15,19 @@ export default function MyWork() {
 
     const experiences = [
         {
-            title: "Senior Frontend Engineer",
-            company: "BairesDev",
-            period: "November 2023 - March 2025"
+            title: "Senior Full Stack | AI Developer",
+            company: "Granit.AI",
+            period: "November 2024 - December 2025"
         },
         {
-            title: "Senior Frontend Developer",
-            company: "Amertron Inc",
-            period: "June 2021 - October 2023"
+            title: "Full Stack Developer",
+            company: "DDI Development",
+            period: "June 2021 - October 2024"
         },
         {
-            title: "Web Developer",
-            company: "TwistResources",
-            period: "July 2018 - March 2021"
+            title: "Full Stack Developer",
+            company: "SourceX",
+            period: "February 2020 - May 2021"
         }
     ];
 

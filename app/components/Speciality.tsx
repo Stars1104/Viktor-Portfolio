@@ -25,7 +25,7 @@ export default function Speciality() {
             icon: (
                 <span className="text-white text-lg font-mono">&lt;/&gt;</span>
             ),
-            content: 'Front-end development with modern technologies',
+            content: 'Full-Stack & AI Development with modern technologies',
             image: '/assets/image/1.png'
         },
         {

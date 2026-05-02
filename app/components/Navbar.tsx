@@ -100,8 +100,6 @@ export default function Navbar() {
     { name: 'Home', href: '/', isHash: false },
     { name: 'About', href: '/about', isHash: false },
     { name: 'Projects', href: '/projects', isHash: false },
-    { name: 'Album', href: '/album', isHash: false },
-    { name: 'Contact', href: '/contact', isHash: false }
   ];
 
   return (

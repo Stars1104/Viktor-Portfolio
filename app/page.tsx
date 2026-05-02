@@ -19,7 +19,7 @@ const SparkleIcon = () => (
   </svg>
 );
 
-const skills = ['Development', 'Mentor', 'Websites', 'Designing', 'Graphics', 'Animations'];
+const skills = ['Development', 'Mentor', 'Websites', 'Designing', 'AI', 'Animations'];
 
 const skillItems = skills.flatMap((skill, index) => [
   { node: <span className="text-gray-700/40 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-medium">{skill}</span> },
@@ -106,7 +106,7 @@ export default function Home() {
         {/* Greeting */}
         <div className="mb-6 sm:mb-8 md:mb-16">
           <p ref={greetingRef} className="text-gray-400 text-xs sm:text-sm md:text-base lg:text-lg">
-            Hey! It's me Rodin, <span className="inline-block ml-1">👋</span>
+            Hey! It's me Viktor, <span className="inline-block ml-1">👋</span>
           </p>
         </div>
 
