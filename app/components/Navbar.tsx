@@ -107,7 +107,7 @@ export default function Navbar() {
       <nav ref={navRef} className={`${isScrolled ? 'max-w-2xl rounded-full' : 'max-w-7xl'} mx-auto mt-2 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-3 sm:px-4 md:px-8 py-3 sm:py-4 bg-[#0b0b0d]/80 backdrop-blur-md transition-all duration-300 ease-in-out`}>
         {/* Logo */}
         <Link ref={logoRef} href="/" className="text-white text-lg sm:text-xl md:text-2xl font-medium tracking-tight hover:text-gray-300 transition-colors">
-          A L
+          V K
         </Link>
 
         {/* Desktop Navigation Links */}
